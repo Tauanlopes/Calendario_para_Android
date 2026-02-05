@@ -1,0 +1,58 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calendario" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="calendario_custom" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:background">@drawable/fundo_semi_arredondado_vidro_semi_transparente_calendar_branco_vidro</item>
+    </style>
+
+    <style name="calendario_text_custom" parent="TextAppearance.Material3.BodySmall" >
+        <item name="android:textColor">@drawable/cor_para_dias_thema_branco</item>
+    </style>
+
+    <style name="TextView_custom" parent="Theme.Material3.DayNight.NoActionBar" >
+        <item name="android:textColor">@color/black_low</item>
+        <item name="android:background">@color/white_low_transparent</item>
+    </style>
+
+    <style name="number_picker_custom"  parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Força o texto principal a ser branco (ou a cor que preferir) -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <!-- Cor dos números secundários (os que ficam acima/abaixo) -->
+        <item name="android:textColorSecondary">@color/gray</item>
+        <!-- Cor das linhas divisórias -->
+        <item name="colorControlNormal">@color/gray</item>
+    </style>
+
+    <style name="constraintLayoult_custom_personalizado" parent="Theme.Material3.DayNight.NoActionBar" >
+        <item name="android:textColor">@color/black_low</item>
+        <item name="android:background">@drawable/background_comprido_junto_calendario_branco_vidro</item>
+    </style>
+
+    <style name="text_view_sem_programacao_custom" parent="Theme.Material3.DayNight.NoActionBar" >
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/fundo_arredondado_vidro_semi_transparente_branco_vidro</item>
+    </style>
+
+    <style name="Theme.Calendario" parent="Base.Theme.Calendario" />
+    <style name="Theme.Calendario.AppWidgetContainerParent"
+        parent="@android:style/Theme.DeviceDefault">
+        <!-- Radius of the outer bound of widgets to make the rounded corners -->
+        <item name="appWidgetRadius">16dp</item>
+        <!--
+        Radius of the inner view's bound of widgets to make the rounded corners.
+        It needs to be 8dp or less than the value of appWidgetRadius
+        -->
+        <item name="appWidgetInnerRadius">8dp</item>
+    </style>
+
+    <style name="Theme.Calendario.AppWidgetContainer"
+        parent="Theme.Calendario.AppWidgetContainerParent">
+        <!-- Apply padding to avoid the content of the widget colliding with the rounded corners -->
+        <item name="appWidgetPadding">16dp</item>
+    </style>
+</resources>
