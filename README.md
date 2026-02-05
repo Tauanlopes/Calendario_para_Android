@@ -13,9 +13,9 @@ Este é um aplicativo de calendário nativo para Android, focado em organizaçã
 
     Plataforma: Android Nativo.
 
-    Linguagem: Kotlin / Java.
+    Linguagem: Java.
 
-    Armazenamento: SQLite / Room Persistence Library.
+    Armazenamento: SQLite.
 
     IDE: Android Studio.
 
