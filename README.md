@@ -30,3 +30,5 @@ O projeto está em constante evolução. As próximas etapas incluem:
     [ ] Customização de temas (Dark Mode).
 
     [ ] Lançamento oficial na Play Store.
+
+    [⬇️ Baixar APK da Versão 1.0] - https://github.com/DoisKabr/Calendario_para_Android/releases/tag/1.0
